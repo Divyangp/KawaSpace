@@ -1,0 +1,185 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+     <style name="styleTextBold">
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="styleTextSemiBold">
+        <item name="android:fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="styleTextMedium">
+        <item name="android:fontFamily">@font/medium</item>
+    </style>
+
+    <style name="styleTextReguler">
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+
+    <style name="text_semi_bold_black_25">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_semi_bold_white_25">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_semi_medium_white_25">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_semi_bold_black_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_semi_bold_orange_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorOrange</item>
+    </style>
+
+    <style name="text_semi_bold_white_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_bold_black_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_bold_white_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_medium_black_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_medium_grey_gender_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="text_medium_white_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_regular_black_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_regular_white_small_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_semi_bold_black_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_semi_bold_white_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_bold_black_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_bold_white_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_medium_black_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_medium_orange_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorOrange</item>
+    </style>
+
+    <style name="text_medium_white_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_regular_black_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_regular_white_small_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_medium_black_small_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_medium_white_small_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_regular_black_small_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_regular_white_small_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <color name="colorOrange">#E16259</color>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8dp"
+        app:cardCornerRadius="@dimen/_24dp"
+        app:cardElevation="@dimen/_2dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:id="@+id/svMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llMenuContainer"
+                android:layout_width="@dimen/_200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_24dp"
+                    android:layout_height="@dimen/_24dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:contentDescription="@string/content_desc"
+                    android:src="@drawable/ic_close" />
+
+
+                <LinearLayout
+                    android:id="@+id/li_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40dp"
+                        android:layout_height="@dimen/_40dp"
+                        android:layout_marginLeft="@dimen/_16dp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:layout_marginRight="@dimen/_16dp"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:contentDescription="@string/content_desc"
+                        android:padding="@dimen/_6dp"
+                        android:src="@drawable/ic_product" />
+
+                    <TextView
+                        style="@style/text_medium_orange_small_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/_16dp"
+                        android:text="@string/product" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li_setellite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40dp"
+                        android:layout_height="@dimen/_40dp"
+                        android:layout_marginLeft="@dimen/_16dp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:layout_marginRight="@dimen/_16dp"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:contentDescription="@string/content_desc"
+                        android:padding="@dimen/_6dp"
+                        android:src="@drawable/ic_download" />
+
+                    <TextView
+                        style="@style/text_medium_black_small_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/_16dp"
+                        android:text="@string/download" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li_terrain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40dp"
+                        android:layout_height="@dimen/_40dp"
+                        android:layout_marginLeft="@dimen/_16dp"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:layout_marginRight="@dimen/_16dp"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:contentDescription="@string/content_desc"
+                        android:padding="@dimen/_6dp"
+                        android:src="@drawable/ic_pricing" />
+
+                    <TextView
+                        style="@style/text_medium_black_small_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/_16dp"
+                        android:text="@string/pricing" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

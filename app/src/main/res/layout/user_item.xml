@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_6dp"
+    android:layout_marginHorizontal="@dimen/_6dp"
+    android:elevation="@dimen/_4dp"
+    app:cardCornerRadius="@dimen/_12dp"
+    app:cardElevation="@dimen/_4sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clUserItem"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="@dimen/_8dp"
+        android:paddingVertical="@dimen/_12dp"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/text_medium_black_small_12"/>
+
+        <TextView
+            android:id="@+id/tvNat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tvGender"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/text_medium_black_small_12"/>
+
+        <TextView
+            android:id="@+id/tvNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGender"
+            style="@style/text_semi_bold_black_small_16"/>
+
+        <TextView
+            android:id="@+id/tvNameFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_3dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
+            app:layout_constraintTop_toTopOf="@+id/tvNameTitle"
+            style="@style/text_semi_bold_black_small_16"/>
+
+        <TextView
+            android:id="@+id/tvNameLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_3dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tvNameFirst"
+            app:layout_constraintTop_toTopOf="@+id/tvNameTitle"
+            style="@style/text_semi_bold_black_small_16"/>
+
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12dp"
+            android:layout_marginBottom="@dimen/_8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameTitle"
+            style="@style/text_semi_bold_orange_small_16"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

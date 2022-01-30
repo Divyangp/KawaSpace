@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ApiCallDemo</string>
+    <string name="internet_not_available">Please check your internet</string>
+    <string name="your_challenge">YourChallenge</string>
+    <string name="content_desc">content desc</string>
+    <string name="product">Product</string>
+    <string name="download">Download</string>
+    <string name="pricing">Pricing</string>
+    <string name="please_wait">Please Wait..</string>
+</resources>
